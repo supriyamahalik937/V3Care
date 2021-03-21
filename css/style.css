@@ -104,22 +104,63 @@
 }
 
 /*Navbar Css */
+
 .container-fluid {
     display: flex;
     flex-direction: row;
     text-transform: uppercase;
 }
 
+.navbar-nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
 /*Book Service Css*/
 .service_image_container {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    padding-top: 8px;
+    justify-content: space-evenly;
+    /* padding-top: 8px; */
+
+    height: 50%;
 }
 
-.service_icon_container img {
-    width: 70%;
+.service_icon_info {
+    border: 1px solid #e07777;
+    border-radius: 50px;
+    height: 100px;
+    width: 100px;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+.service_icon_container {
+    align-self: center;
+    
+}
+
+
+.service_icon_info img {
+    width: 40px;
+    height: 40px;
+    align-self: center;
+}
+
+.service_icon_tab_name {
+    text-align: center;
+}
+
+.book_service_container {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .book_service_heading {
@@ -130,7 +171,12 @@
 
 /*Service Category Css */
 .service_category_container {
-    background-image: url('assets/cleaning-services-bg.jpg');
+    background-image: url('../assets/cleaning-services-bg.jpg');
+    background-repeat: no-repeat;
+    margin-top: 3%;
+    background-size: cover;
+    padding-top: 20px;
+    padding-bottom: 3%;
 }
 
 .service_category_heading {
@@ -140,17 +186,61 @@
     padding-top: 20px;
 }
 
+.service_category_heading p { 
+    padding: 0;
+}
 .service_category_button {
     display: flex;
-    align-self: center;
+    justify-content: center;
+    margin-top: 35px;
 }
 
+.service_category_button button {
+    margin-right: 10px;
+ }
 .service_category_card {
     display: flex;
     padding-top: 20px;
+    margin-top: 5%;
+}
+
+.service_category_card .card img { 
+    height: 120px;
+    object-fit: cover;
+}
+
+.service_category_card .card {
+    margin-right: 2%;
+}
+
+.btn_category {
+    background: #fff;
+}
+
+.btn_category:hover {
+    background: #c60404;
+    color: #fff;
+}
+
+/* Why v3 */
+.why_v3_container {
+    display: flex;
+    flex-direction: column;
+}
+.why_v3_header_container {
+
+}
+
+.why_v3_main_container {
+    display: flex;
+    flex-direction: row;
 }
 
 /*Client Css */
+.client_container {
+    margin-top: 3%;
+
+}
 .client_heading {
     text-align: center;
     padding-top: 30px;

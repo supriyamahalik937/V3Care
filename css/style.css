@@ -46,6 +46,13 @@
     margin-right: 20px;
 }
 
+
+.form_container_section {
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 8%);
+    border: 0;
+    position: relative;
+    top: -20px;
+}
 .booking_service_btn button {
     background-color: #9a0000;
     color: #e4e2e2;
@@ -178,6 +185,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background: #fffbfb;
 }
 
 .book_service_heading {
@@ -264,17 +272,70 @@
     flex-direction: column;
 }
 
-.why_v3_header_container {}
+.why_v3_header_container {
+    justify-content: center;
+    display: flex;
+    margin-top: 4%;
+
+}
 
 .why_v3_main_container {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    margin-top: 4%;
+
 }
 
+.why_v3_inner_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-bottom: 6%;
+    margin-right: 1%;
+}
+
+.why_v3_section {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+}
+
+.why_v3_section img {
+    height: 50px;
+    width: 50px;
+}
+
+
+.why_v3_section p {
+    align-self: center;
+    margin: 0;
+    margin-right: 10px  ;
+}
+
+
+.why_v3_section_image img {
+    height: 370px;
+}
+
+
 /*Client Css */
+
+.client_card_img {
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    margin-left: -30px;
+    width: 60px !important;
+    height: 60px;
+  }
+
+  
 .client_container {
     margin-top: 3%;
-
+    background: #a31919;
+    color: #fff;
+    padding-bottom: 4%;
 }
 
 .client_heading {
@@ -325,4 +386,12 @@ h2 {
     background-color: #111;
     padding: 80px 0;
 
+}
+
+.footer_Section {
+    padding-top:4%;
+
+    background: #393941;
+    color: #fff;
+   
 }

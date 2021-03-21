@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
     <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
 </head>
@@ -146,17 +148,7 @@
                 <span class="visually-hidden">Next</span>
             </button>
 
-            <!--Form Section-->
-            <div class="card">
-                <div class="card-body">
-                    <select class="form-select" aria-label="Default select example">
-                        <option selected>Open this select menu</option>
-                        <option value="1">One</option>
-                        <option value="2">Two</option>
-                        <option value="3">Three</option>
-                    </select>
-                </div>
-            </div>
+        
 
         </div>
 
@@ -166,6 +158,22 @@
 
     <!--Book Services-->
     <div class="book_service_container">
+
+        <div class="container">
+                <!--Form Section-->
+                <div class="card form_container_section">
+                    <div class="card-body">
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Open this select menu</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
+                    </div>
+                </div>
+    
+        </div>
+
         <div class="book_service_heading">
             <p class="large_text">BOOK A SERVICE</p>
         </div>
@@ -306,8 +314,29 @@
         </div>
 
         <div class="why_v3_main_container">
-            <div class="why_v3_section">
-                High Quality Cleaning
+          
+            <div class="why_v3_inner_container">
+                <div class="why_v3_section">
+                    <p>
+                        High Quality Cleaning
+                    </p>
+                    <img src="assets/high-quality-icon.png" alt="">
+                </div>
+
+                <div class="why_v3_section">
+                    <p>
+                        High Quality Cleaning
+                    </p>
+                    <img src="assets/high-quality-icon.png" alt="">
+                </div>
+
+
+                <div class="why_v3_section">
+                    <p>
+                        High Quality Cleaning
+                    </p>
+                    <img src="assets/high-quality-icon.png" alt="">
+                </div>
             </div>
 
             <div class="why_v3_section_image">
@@ -326,12 +355,16 @@
             <p class="large_text">What's Client's Say<br>About Us</p>
         </div>
         <div class="client_card">
-            <div class="row">
+            <div class="row justify-content-center">
                 <div class="col-lg-3 col-md-6">
                     <div class="card">
-                        <div class="card-body">
-                            <img src="assets/testimonials/testimonials-2.jpg" alt=""
-                                class="img-fluid rounded-circle w-50 mb-3">
+
+                       <div>
+                        <img class="card-img-top img-fluid rounded-circle w-60 mb-3 client_card_img" src="assets/testimonials/testimonials-2.jpg" alt=""
+                        >
+                       </div>
+                        <div class="card-body mt-5">
+                         
                             <p class="client_p">We rigorously vet all our Cleaners,please see a selection of quotes from
                                 our Channel Partners,please see a selection of quotes.</p>
                             <h3 class="client_h3">Mark Thomas</h3>
@@ -339,6 +372,9 @@
                         </div>
                     </div>
 
+                </div>
+
+                <div class="col-lg-3 col-md-6">
                     <div class="card">
                         <div class="card-body">
                             <img src="assets/testimonials/testimonials-4.jpg" alt=""
@@ -350,6 +386,9 @@
                         </div>
                     </div>
 
+                </div>
+
+                <div class="col-lg-3 col-md-6">
                     <div class="card">
                         <div class="card-body">
                             <img src="assets/testimonials/testimonials-5.jpg" alt=""
@@ -368,57 +407,59 @@
     <!--End of About Us-->
 
     <!--Footer-->
-    <footer>
-        <div class="footer_top">
-            <div class="footer_container">
-                <div class="row">
-                    <div class="col-md-2 col-sm-10 col-xs-20 segment-one">
-                        <img src="assets/v3care-logo.png" alt="">
-                        <p class="p_footer">We are cleaning service company for<br> industries, corporate and household.
-                        </p>
-                        <a href="#"><i class="fa fa-facebook"></i></a>
-                        <a href="#"><i class="fa fa-twitter"></i></a>
-                        <a href="#"><i class="fa fa-instagram"></i></a>
-                        <a href="#"><i class="fa fa-facebook"></i></a>
-                        <a href="#"><i class="fa fa-facebook"></i></a>
-
-                    </div>
-                    <div class="col-md-2 col-sm-10 col-xs-20 segment-two">
-                        <h2>QUICK LINKS</h2>
-                        <ul>
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">Services</a></li>
-                            <li><a href="#">Book Service</a></li>
-                            <li><a href="#">Clients</a></li>
-                            <li><a href="#">Contact Us</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-md-2 col-sm-10 col-xs-20 segment-three">
-                        <h2>OUR SERVICES</h2>
-                        <ul>
-                            <li><a href="#"></a>Residential Services</li>
-                            <li><a href="#"></a>Corporate Services</li>
-                            <li><a href="#"></a>Industrial Service</li>
-                            <li><a href="#"></a>Sofa clean Services</li>
-                        </ul>
-                    </div>
-                    <div class="col-md-2 col-sm-10 col-xs-20 segment-four">
-                        <h2>REACH US</h2>
-                        <ul>
-                            <li><a href="#"></a>V3CARE</li>
-                            <li><a href="#"></a>#2296,24th Main Road,</li>
-                            <li><a href="#"></a>16th Cross,HSR Layout</li>
-                            <li><a href="#"></a>Sector 1,Banglore-560 102</li>
-                            <li><a href="#"></a>Land Mark:Opposite Bangalore One</li>
-                            <li><a href="#"></a>Mob:+91 9880778585</li>
-                        </ul>
-                    </div>
-                    <div class="col-md-2 col-sm-10 col-xs-20 segment-four">
-                        <img src="assets/service-batch.png">
-                        <div class="booking_service_btn">
-                            <button class="btn">
-                                Booking Service
-                            </button>
+    <footer class="footer_Section">
+        <div class="container">
+            <div class="footer_top">
+                <div class="footer_container">
+                    <div class="row justify-content-center">
+                        <div class="col-md-2 col-sm-10 col-xs-20 segment-one">
+                            <img src="assets/v3care-logo.png" alt="">
+                            <p class="p_footer">We are cleaning service company for<br> industries, corporate and household.
+                            </p>
+                            <a href="#"><i class="fab fa-facebook"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-facebook"></i></a>
+                            <a href="#"><i class="fab fa-facebook"></i></a>
+    
+                        </div>
+                        <div class="col-md-2 col-sm-10 col-xs-20 segment-two">
+                            <h2>QUICK LINKS</h2>
+                            <ul>
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Services</a></li>
+                                <li><a href="#">Book Service</a></li>
+                                <li><a href="#">Clients</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-2 col-sm-10 col-xs-20 segment-three">
+                            <h2>OUR SERVICES</h2>
+                            <ul>
+                                <li><a href="#"></a>Residential Services</li>
+                                <li><a href="#"></a>Corporate Services</li>
+                                <li><a href="#"></a>Industrial Service</li>
+                                <li><a href="#"></a>Sofa clean Services</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-2 col-sm-10 col-xs-20 segment-four">
+                            <h2>REACH US</h2>
+                            <ul>
+                                <li><a href="#"></a>V3CARE</li>
+                                <li><a href="#"></a>#2296,24th Main Road,</li>
+                                <li><a href="#"></a>16th Cross,HSR Layout</li>
+                                <li><a href="#"></a>Sector 1,Banglore-560 102</li>
+                                <li><a href="#"></a>Land Mark:Opposite Bangalore One</li>
+                                <li><a href="#"></a>Mob:+91 9880778585</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-2 col-sm-10 col-xs-20 segment-four">
+                            <img src="assets/service-batch.png">
+                            <div class="booking_service_btn">
+                                <button class="btn">
+                                    Booking Service
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -437,6 +478,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js"
         integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG"
         crossorigin="anonymous"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" integrity="sha512-RXf+QSDCUQs5uwRKaDoXt55jygZZm2V++WUZduaU/Ui/9EGp3f/2KZVahFZBKGH0s774sd3HmrhUy+SgOFQLVQ==" crossorigin="anonymous"></script>
 
 </body>
 
